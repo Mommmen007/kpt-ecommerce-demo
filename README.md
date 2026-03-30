@@ -12,6 +12,12 @@ This project demonstrates how to deploy and scale a microservices-based e-commer
 ## Architecture
 - Deployment manages application pods
 - Service exposes the application externally
+- Docker container running Nginx
+- Kubernetes Deployment manages replicas
+- Service exposes the application
+- GitHub Actions handles CI pipeline
+- Health checks ensure reliability
+- Resource limits control performance
 
 ## Containerization
 
