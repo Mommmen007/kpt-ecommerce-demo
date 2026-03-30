@@ -23,6 +23,10 @@ This project demonstrates how to deploy and scale a microservices-based e-commer
 Run the container:
 docker run -p 8080:80 ecommerce-app
 
+## CI/CD
+
+This project uses GitHub Actions to automatically build the Docker image on every push.
+
 ## How to Run
 1. Apply deployment:
    kubectl apply -f k8s/deployment.yaml
