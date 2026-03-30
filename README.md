@@ -13,6 +13,16 @@ This project demonstrates how to deploy and scale a microservices-based e-commer
 - Deployment manages application pods
 - Service exposes the application externally
 
+## Containerization
+
+   This project includes a Dockerfile to containerize the application using Nginx.
+
+   Build the image:
+   docker build -t ecommerce-app .
+
+Run the container:
+docker run -p 8080:80 ecommerce-app
+
 ## How to Run
 1. Apply deployment:
    kubectl apply -f k8s/deployment.yaml
